@@ -1,0 +1,38 @@
+class program {
+void llena(){
+iterate(4){
+putbeeper();
+if(frontIsClear){
+move();
+}
+}
+}
+void giraDerecha(){
+turnleft();
+turnleft();
+turnleft();
+}
+    program () {
+  
+        llena();
+        giraDerecha();
+        move();
+        giraDerecha();
+        llena();
+        turnleft();
+        move();
+        turnleft();
+        llena();
+        giraDerecha();
+        move();
+        giraDerecha();
+        llena();
+        turnleft();
+        move();
+        turnleft();
+        llena();
+       
+        
+        turnoff();
+    }
+}

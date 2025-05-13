@@ -1,0 +1,18 @@
+class program {
+void dejaZumbador (n) {
+
+   if ( iszero(n) ) {
+        pickbeeper();
+   }
+   else {
+      iterate (n) {
+        putbeeper();
+      }
+   }
+}
+
+    program () {
+       dejaZumbador (0);
+        turnoff();
+    }
+}

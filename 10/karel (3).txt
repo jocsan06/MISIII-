@@ -1,0 +1,37 @@
+class program {
+void turnright()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+void avanza(n)
+{
+iterate(succ(succ(n)))
+{
+if (frontIsBlocked)
+{
+turnleft();
+move();
+turnright();
+move();
+turnright();
+move();
+turnleft();
+}
+else
+{
+move();
+}
+}
+iterate(pred(pred(n)))
+{
+putbeeper();
+}
+}
+
+    program () {
+        avanza(5);
+        turnoff();
+    }
+}

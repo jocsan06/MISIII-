@@ -1,0 +1,11 @@
+class program {
+void avanza(n) {
+iterate(n){
+move();
+}
+}
+    program () {
+      avanza(5);
+        turnoff();
+    }
+}
